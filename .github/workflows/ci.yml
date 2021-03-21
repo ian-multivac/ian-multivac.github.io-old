@@ -4,7 +4,6 @@ on:
     remote:
       - Public
     branches:
-      - master
       - main
 jobs:
   deploy:
