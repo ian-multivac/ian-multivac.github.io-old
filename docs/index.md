@@ -1,6 +1,6 @@
 # What is myMultivac?
 
-myMultivac is a personal project site.  Built around whole-life analytics, self-hosted projects, myMultivac's goals are to provide deeper insight and understanding into patterns that can be found within our digital footprints, in a secure, private way.
+myMultivac is a personal project site.  Built around whole-life analytics, self-hosted projects, myMultivac's goals are to provide deeper insight and understanding into patterns that can be found within our digital footprints, in a secure, private way.  Visit [https://www.mymultivac.com](https://www.mymultivac.com) for more details.
 
 ## Projects
 
