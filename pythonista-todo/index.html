@@ -5,10 +5,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://github.mymultivac.com/about/" rel="canonical"/>
+<link href="https://github.mymultivac.com/pythonista-todo/" rel="canonical"/>
 <link href="../img/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.2.2, mkdocs-material-7.2.5" name="generator"/>
-<title>About - myMultivac Projects</title>
+<title>Todo List Sync - myMultivac Projects</title>
 <link href="../assets/stylesheets/main.be71726b.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
 <meta content="#2094f3" name="theme-color"/>
@@ -31,7 +31,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#some-backstory">
+<a class="md-skip" href="#todo-list-sync">
           Skip to content
         </a>
 </div>
@@ -55,7 +55,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              About
+              Todo List Sync
             
           </span>
 </div>
@@ -112,8 +112,8 @@
         myMultivac
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
         Projects
         <span class="md-nav__icon md-icon"></span>
@@ -139,22 +139,14 @@
         Foundation
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../pythonista-todo/">
-        Todo List Sync
-      </a>
-</li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          About
+          Todo List Sync
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        About
+        Todo List Sync
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -163,21 +155,20 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#some-backstory">
-    Some Backstory
+<a class="md-nav__link" href="#todo-list-sync">
+    Todo List Sync
   </a>
-<nav aria-label="Some Backstory" class="md-nav">
-<ul class="md-nav__list">
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#multivacs-name">
-    Multivac's Name
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
+<a class="md-nav__link" href="../about/">
+        About
+      </a>
 </li>
 </ul>
 </nav>
@@ -194,18 +185,9 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#some-backstory">
-    Some Backstory
+<a class="md-nav__link" href="#todo-list-sync">
+    Todo List Sync
   </a>
-<nav aria-label="Some Backstory" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#multivacs-name">
-    Multivac's Name
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -214,12 +196,9 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>About</h1>
-<h2 id="some-backstory">Some Backstory<a class="headerlink" href="#some-backstory" title="Permanent link">#</a></h2>
-<p>myMultivac is a small personal project, designed to help me explore data in the world around us.  It started as a self-hosted project, combining several open-sourced projects around home automation and private apps, such as Home Assistant, Plex and Firefly III.  In the modern world, our digital footprint is vast, and it’s difficult to control or contain.</p>
-<p>With the amount of data sent and received by nearly every app we use daily, huge organizations with deep pockets can leverage bits and pieces to build a frighteningly accurate picture of each user.  Giving the user complete control of that information, and educating people about how it’s collected, collated and wrangled, is one of the primary goals of the myMultivac project.</p>
-<h3 id="multivacs-name">Multivac’s Name<a class="headerlink" href="#multivacs-name" title="Permanent link">#</a></h3>
-<p>Multivac is the name of a super-computer in several stories by Isaac Asimov.  myMultivac was the name of my first home automation server, a raspberry pi running Home Assistant, inspired by these stories.  I quickly learned that my little server could tell me so much more about my own habits and patterns: how often I was home, what time I woke up or went to bed, what I was listening to or watching…  Smart devices can be used to track simple events that can unlock so much more about each of us.</p>
+<h1>Todo List Sync</h1>
+<h2 id="todo-list-sync">Todo List Sync<a class="headerlink" href="#todo-list-sync" title="Permanent link">#</a></h2>
+<p>A Pythonista 3 script that parses text files and creates ClickUp tasks and iOS reminders for any flagged text.  Perfect for sifting through dozens of WIP projects!</p>
 <style>
     .jp-RenderedHTMLCommon p {
         font-size: .8rem;
@@ -266,7 +245,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Todo List Sync" class="md-footer__link md-footer__link--prev" href="../pythonista-todo/" rel="prev">
+<a aria-label="Previous: Foundation" class="md-footer__link md-footer__link--prev" href="../foundation/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -275,8 +254,21 @@
 <span class="md-footer__direction">
                 Previous
               </span>
-              Todo List Sync
+              Foundation
             </div>
+</div>
+</a>
+<a aria-label="Next: About" class="md-footer__link md-footer__link--next" href="../about/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              About
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
 </div>
 </a>
 </nav>

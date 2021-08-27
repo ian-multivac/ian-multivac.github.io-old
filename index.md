@@ -21,3 +21,7 @@ A simple simulation game, in which a galaxy-spanning empire evolves over thousan
 - Unity3D
 - Web: a simple browser to explore the procedurally-generated galaxy, with limited functionality
 - iOS (Python): the main focus for the simulation and AI testing
+
+### Todo List Sync
+
+A Pythonista 3 script that parses text files and creates ClickUp tasks and iOS reminders for any flagged text.  Perfect for sifting through dozens of WIP projects!
